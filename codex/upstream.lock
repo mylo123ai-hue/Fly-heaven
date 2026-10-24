@@ -1,0 +1,21 @@
+schema_version: 1
+
+simulator:
+  name: Fly.exe / MaleCNS Virtual Fly
+  repository: https://github.com/Ibtisam-Mohammad/Fly.exe
+  revision: cc25411e00f945e7330cb6f400372cce315c0802
+  license: GPL-2.0-or-later
+  python: ">=3.12,<3.15"
+  uv: 0.12.5
+  uv_lock_sha256: c7a02d67857dffb479a7d19c000854a8e656af32c1e709889375c773efb3b5fc
+  flygym: 2.1.0 (Apache-2.0; source tag commit ca65a510c2afe6ac61c51df4f274c8d190c2f95f)
+  mujoco: 3.9.0 (Apache-2.0)
+  genn: 5.4.0 (LGPL-2.1; source tag commit dd258075263c4b2bcb6607d230add658bcc23127)
+  cuda_toolkit: not pinned by upstream; record `nvcc --version` and Windows driver version
+
+connectome:
+  name: MaleCNS v1.0
+  source: https://male-cns.janelia.org/download/
+  license: CC-BY (as stated by the source)
+  download_profile: starter
+  data_is_vendored: false
